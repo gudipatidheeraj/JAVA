@@ -24,8 +24,9 @@ public class sumofnumbers {
         while(num1 > 0) {
             int rev = num1 % 10;
             num1 = num1 / 10;
-            int ans = rev * 10 + num1;
+            ans = rev * 10 + num1;
         }
         System.out.print(ans);
     }
+
 }
